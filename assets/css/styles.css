@@ -1,0 +1,83 @@
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Handlee', cursive;
+}
+
+/* Body and Layout */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    margin: 2rem 0;
+}
+
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-custom {
+    color: #3B2F2F;
+}
+
+.navbar-custom .nav-link {
+    color: #3B2F2F;
+}
+
+.navbar-custom .nav-link.active {
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFEBD4;
+    padding: 8rem 0;
+}
+
+/* Footer */
+.footer {
+    margin-top: auto;
+    background-color: #6F4E37;
+    color: #FFEBD4;
+}
+
+.footer i.bi {
+    color: #FFEBD4;
+}
+
+/* Navigation */
+.nav-item.active .nav-link {
+    color: #000000;
+    font-weight: bolder;
+}
+
+/* Cards */
+.card {
+    border: none;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Testimonial Images */
+.testimonial-image {
+    width: 100px;
+    height: 100px;
+}
+
+/* Rounded Images */
+.rounded-image {
+    border-radius: 15px;
+}
